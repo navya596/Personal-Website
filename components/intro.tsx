@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -42,21 +41,13 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-
-      <div className="flex items-center justify-center text-4xl mb-4 mt-4 px-4 text-0xl font-medium !leading-[1.5] sm:text-1xl">
-        <div className="relative">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .changeDelay(30)
-                .typeString("Hi there, I'm Navya!")
-                .pauseFor(2000)
-                .start();
-            }}
-          />
-        </div>
-      </div>
-
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="flex items-center justify-center relative text-4xl mb-4 mt-4 px-4 text-0xl font-medium !leading-[1.5] sm:text-1xl"
+      >
+        Hi there, I'm Navya!
+      </motion.div>
       <motion.p
         className="mb-4 mt-2 px-4 text-0xl font-medium !leading-[1.5] sm:text-1xl"
         initial={{ opacity: 0, y: 100 }}

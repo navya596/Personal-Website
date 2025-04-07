@@ -16,21 +16,21 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        I’m a software engineering student who enjoys tinkering with projects
+        {`I’m a software engineering student who enjoys tinkering with projects
         that solve problems or are simply fun to create — whether through code,
-        design, or side projects sparked by late-night "what if" ideas.
+        design, or side projects sparked by late-night "what if" ideas.`}
       </p>
 
       <p>
-        I’m passionate about smart tech that enhances creativity without
+        {`I’m passionate about smart tech that enhances creativity without
         overshadowing it. I focus on clean systems, clear visuals, and ideas
         that *resonate*, blending engineering with a bit of creativity and
-        rebellion.
+        rebellion.`}
       </p>
 
       <p>
-        Outside of tech, I’m dancing, biking across town, walking everywhere, or
-        expressing myself through different fashion styles.
+        {`Outside of tech, I’m dancing, biking across town, walking everywhere, or
+        expressing myself through different fashion styles.`}
       </p>
     </motion.section>
   );

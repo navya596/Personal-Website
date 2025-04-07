@@ -1,4 +1,6 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { useContext, useState } from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
@@ -6,7 +8,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
-export default function header() {
+export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 

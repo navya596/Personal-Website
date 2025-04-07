@@ -76,7 +76,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-900 p-4 flex text-gray-300 cursor-pointer items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-300 hover:text-black active:scale-105 border border-gray-300/10 transition"
-          href="/Resume.pdf"
+          href="/NavyaAhuja.pdf"
           download
         >
           <FaFileAlt className="opacity-90 group-hover" />

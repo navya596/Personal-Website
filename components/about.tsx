@@ -29,8 +29,7 @@ export default function About() {
       </p>
 
       <p>
-        {`Outside of tech, I’m dancing, biking across town, walking everywhere, or
-        expressing myself through different fashion styles.`}
+        {`Outside of tech, you'll find me sipping on a good matcha, binge-watching a thriller, or walking the city with the perfect R&B playlist in my ears.`}
       </p>
     </motion.section>
   );
